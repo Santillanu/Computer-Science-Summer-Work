@@ -1,5 +1,5 @@
 # Computer Science Summer Work
-#### **Tasks to do during the summer**
+### **Tasks to do during the summer**
   * Organisation Skills
   * Notetaking 
   * Contextualisation
@@ -8,7 +8,7 @@
   * Logical Thinking - Pattern Recognition
   * Research and Critical Thinking
 
-### Task:
+#### Task:
 #### Watch this Ted Talk on how computers learn to recognise objects instantly. After watching this video, discuss the benefits, limitations, and risks of the subject in the context of:
  * Travel and Tourism
  * Gaming and Entertainment
