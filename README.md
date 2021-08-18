@@ -21,3 +21,7 @@
 
 ### Response:
 #### Travel and Tourism - 
+#### Gaming and Entertainment - 
+#### Education and Learning - 
+#### Transport and Navigation - 
+#### Medicine and Healthcare
