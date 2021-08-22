@@ -60,4 +60,17 @@ Limits - Any invasive surgeries which require the medical team to insert an obje
 
 Risks - A redundancy in staff as a result of implementing image recognition to debug most problems with regards to diagnosing a patient may lead to a larger proportion of skilled workers without any job, thus leading to protests and the loss of human interaction with the patient. Some patients may not like automacy of registering themselves and being diagnosed through an image recognition algorithm. 
 
+#### Task:
+#### A palindrome is a word that reads identically backward or forward. Consider the word “RACECAR”, what steps would you take to identify whether it was a palindrome? Write these down using concrete terms. Do the same for another word “DEFIED”. Given the concrete examples, consider the generalized problem - informally describe an algorithm in English, that can identify any palindromes.
 
+### Outcome:
+#### In the course of thinking about the algorithm – you would replace the text sequence with an index. The index is the beginning of an abstraction. You would create a flow and probably repeat the process …. Fleshing out an algorithm. You would refine this until it becomes trivial to write the program.
+
+### Research:
+#### What other examples are there of abstractions in Computer Science?
+
+### Response:
+* Step 1 - Read the word "RACECAR" from left to right and proceed to read the word from right to left
+* Step 2 - Check whether the outer most letters are the same. In this case, both the first and last letter have the letter "R"
+* Step 3 - If the outer most letters are the same, begin checking the next outer most letters (i.e. the 2nd and 6th letter of the word "RACECAR"). In this case both the 2nd and the 6th letters have the letter "A".
+* Step 4 - Repeat this process until you have reached the middle letter of the word (i.e. the 4th letter which is "E"). If all other letters have been checked through thoroughly, then you can consider the word "RACECAR" to be a palindrome. 
