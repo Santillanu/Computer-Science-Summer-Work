@@ -70,8 +70,11 @@ Risks - A redundancy in staff as a result of implementing image recognition to d
 #### What other examples are there of abstractions in Computer Science?
 
 ### Response:
-* Step 1 - Read the word "RACECAR" from left to right and proceed to read the word from right to left.
-* Step 2 - Check whether the outer most letters are the same. In this case, both the first and last letter have the letter "R".
+
+* "RACECAR":
+
+*Step 1 - Read the word "RACECAR" from left to right and proceed to read the word from right to left.
+*Step 2 - Check whether the outer most letters are the same. In this case, both the first and last letter have the letter "R".
 * Step 3 - If the outer most letters are the same, begin checking the next outer most letters (i.e. the 2nd and 6th letter of the word "RACECAR"). In this case both the 2nd and the 6th letters have the letter "A".
 * Step 4 - Repeat this process until you have reached the middle letter of the word (i.e. the 4th letter which is "E"). If all other letters have been checked through thoroughly, then you can consider the word "RACECAR" to be a palindrome. 
 
