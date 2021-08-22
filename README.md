@@ -54,10 +54,10 @@ Risks - A small defect in the image recognition system may render the car unsafe
 
 * Medicine and Healthcare:
 
-Benefits - Allows for staff to ensure that any patient impersonation is rectified, and ensure that patients are being diagnosed efficiently and correctly, thus eliminating the possibility of human error which could potentially lead to the wrong medication/treatment for the patient and cause the patient to become more ill. Will also allow for any medication to be more accurately inserted into the patient.
+Benefits - Allows for staff to ensure that any patient impersonation is rectified, and ensure that patients are being diagnosed efficiently and correctly, thus eliminating the possibility of human error which could potentially lead to the wrong medication/treatment for the patient and cause the patient to become more ill. Will also allow for any medication to be more accurately inserted into the patient, as the system can easily allow the administrator to focus into a specific section of a body with precision and ease.
 
-Limits - 
+Limits - Any invasive surgeries which require the medical team to insert an object inside the body may not be able to utilise image recognition to detect abnormalities inside the body, due to the possible risk of infection. Ultrasound may still be heavily utilised in favour of executing this rather than image recognition. 
 
-Risks - 
+Risks - A redundancy in staff as a result of implementing image recognition to debug most problems with regards to diagnosing a patient may lead to a larger proportion of skilled workers without any job, thus leading to protests and the loss of human interaction with the patient. Some patients may not like automacy of registering themselves and being diagnosed through an image recognition algorithm. 
 
 
