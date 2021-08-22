@@ -21,6 +21,7 @@
 
 ### Response:
 * Travel and Tourism:
+
 Benefits - Allows for the security of airports to be heavily refined as luggages and bags pass through the screening system. Allows for any foreign travellers who are travelling to their holiday destination to be able to differenciate between certain objects within their own language, making it easier for those to be able to commute without having the need to ask other people within a different language. Will also allow for a much easier border control system, as humans, who have the ability to make mistakes when checking passports, will be fully replaced by a barrier utilising an image recognition software to gain access through.
 
 Limits - May not be as efficient or as effective as the current screening procedure (computer tomography (CT)), thus leading to slower boarding times and a higher probablity of minor delays as passengers will have to wait longer for their items to be checked and passed through security. 
