@@ -60,7 +60,7 @@ Limits - Any invasive surgeries which require the medical team to insert an obje
 
 Risks - A redundancy in staff as a result of implementing image recognition to debug most problems with regards to diagnosing a patient may lead to a larger proportion of skilled workers without any job, thus leading to protests and the loss of human interaction with the patient. Some patients may not like automacy of registering themselves and being diagnosed through an image recognition algorithm. 
 
-#### Task:
+### Task:
 #### A palindrome is a word that reads identically backward or forward. Consider the word “RACECAR”, what steps would you take to identify whether it was a palindrome? Write these down using concrete terms. Do the same for another word “DEFIED”. Given the concrete examples, consider the generalized problem - informally describe an algorithm in English, that can identify any palindromes.
 
 ### Outcome:
@@ -71,27 +71,27 @@ Risks - A redundancy in staff as a result of implementing image recognition to d
 
 ### Response:
 
-* "RACECAR":
+#### "RACECAR":
 
-Step 1 - Read the word "RACECAR" from left to right and proceed to read the word from right to left.
-Step 2 - Check whether the outer most letters are the same. In this case, both the first and last letter have the letter "R".
-Step 3 - If the outer most letters are the same, begin checking the next outer most letters (i.e. the 2nd and 6th letter of the word "RACECAR"). In this case both the 2nd and the 6th letters have the letter "A".
-Step 4 - Repeat this process until you have reached the middle letter of the word (i.e. the 4th letter which is "E"). If all other letters have been checked through thoroughly, then you can consider the word "RACECAR" to be a palindrome. 
+* Step 1 - Read the word "RACECAR" from left to right and proceed to read the word from right to left.
+* Step 2 - Check whether the outer most letters are the same. In this case, both the first and last letter have the letter "R".
+* Step 3 - If the outer most letters are the same, begin checking the next outer most letters (i.e. the 2nd and 6th letter of the word "RACECAR"). In this case both the 2nd and the 6th letters have the letter "A".
+* Step 4 - Repeat this process until you have reached the middle letter of the word (i.e. the 4th letter which is "E"). If all other letters have been checked through thoroughly, then you can consider the word "RACECAR" to be a palindrome. 
 
-* "DEFIED":
+#### "DEFIED":
 
-Step 1 - Read the word "DEFIED" from left to right and proceed to read the word from right to left.
-Step 2 - Check whether the outer most letters are the same. In this case, both the first and last letter have the letter "D".
-Step 3 - If the outer most letters are the same, begin checking the next outer most letters (i.e. the 2nd and 5th letter of the word "DEFIED"). In this case both the 2nd and the 5th letters have the letter "E".
-Step 4 - Next, begin checking the next outher most letters (i.e. the 3rd and 4th letter of the word "DEFIED"). In this case the 3rd letter "F" does not correspond with the 4th letter "I". As a result, you cannot consider the word "DEFIED" to be a palindrome.
+* Step 1 - Read the word "DEFIED" from left to right and proceed to read the word from right to left.
+* Step 2 - Check whether the outer most letters are the same. In this case, both the first and last letter have the letter "D".
+* Step 3 - If the outer most letters are the same, begin checking the next outer most letters (i.e. the 2nd and 5th letter of the word "DEFIED"). In this case both the 2nd and the 5th letters have the letter "E".
+* Step 4 - Next, begin checking the next outher most letters (i.e. the 3rd and 4th letter of the word "DEFIED"). In this case the 3rd letter "F" does not correspond with the 4th letter "I". As a result, you cannot consider the word "DEFIED" to be a palindrome.
 
-* Informal Algorithm:
+#### Informal Algorithm:
 
-Step 1 - Determine whether the word has a total of even or odd letters.
-Step 2 - Begin with the outer most letters and proceed until you have reached the middle letter (if the word happens to contain an odd set of letters). Only proceed if the outer most letters are equal. Use a comparison operator for this.
-Step 3 - If all letters are equal (with the exception of the middle letter for any word that contains an odd set of letters), then you may consider and print out the statement that this word is a palindrome. 
+* Step 1 - Determine whether the word has a total of even or odd letters.
+* Step 2 - Begin with the outer most letters and proceed until you have reached the middle letter (if the word happens to contain an odd set of letters). Only proceed if the outer most letters are equal. Use a comparison operator for this.
+* Step 3 - If all letters are equal (with the exception of the middle letter for any word that contains an odd set of letters), then you may consider and print out the statement that this word is a palindrome. 
 
-Other examples of abstractions in Computer Science may include:
+#### Other examples of abstractions in Computer Science may include:
 * A car
 * A microwave
 * An ATM machine
