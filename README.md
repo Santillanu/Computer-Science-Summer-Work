@@ -88,4 +88,5 @@ Other examples of abstractions in Computer Science may include:
 * A car
 * A microwave
 * An ATM machine
-* 
+* Pressing the stop button on a bus
+* Playing the piano
