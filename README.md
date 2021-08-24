@@ -191,7 +191,7 @@ y = int(input())
 total = (x + y)
 print(total)
 
-#### Module 3 - Booleans and Comparisons to Range and Date Picker
+#### Module 3 - Booleans and Comparisons to Range
 my_boolean = True
 print(my_boolean)
 print(2 == 3)
