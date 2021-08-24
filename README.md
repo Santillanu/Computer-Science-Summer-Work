@@ -97,3 +97,260 @@
 * An ATM machine
 * Pressing the stop button on a bus
 * Playing the piano
+
+### Programming Skills - Algorithms
+#### Register with Sololearn and Repl.It . SoloLearn is an online learning platform for programming. Repl.it is an online platform that allows you to code without the need to install a programming development environment on your machine. On Sololearn, select the Python Learning course, and complete modules 1, 2 and 3 that cover fundamentals of programming. Throughout the materials, Sololearn provides you with a button that runs the example code provided - however, rather than running the example programs written in Python on Sololearn - type the code out in Repl and run it there. The act of typing these examples is Active Learning.")
+print("Module 1 - Welcome to Python! to Quotient and Remainder
+print("Hello World!")
+print("Hi")
+print('Hello world!')
+print('Hello world!')
+print('Spam and eggs...')
+
+print(2 + 2)
+print(5 + 4 - 3)
+print(2 * (3 + 4))
+print(10 / 2)
+
+print(3 / 4)
+print(0.42)
+print(8 / 2)
+print(6 * 7.0)
+print(4 + 1.65)
+print(1 + 2 + 3 + 4.0 + 5)
+
+print(2 ** 5)
+print(5 ** 3)
+print(9 ** (1 / 2))
+print(8 ** (1 / 3))
+
+print(20 // 6)
+print(10 // 4)
+print(20 % 6)
+print(1.25 % 0.5)
+print(7 % (5 // 2))
+
+offer2 = 0.01 * (2 ** 30)
+print(offer2)
+
+print("Module 2 - Strings to In-Place and Walrus Operators")
+print("Python is fun!")
+print('Always look on the bright side of life')
+print('Brian\'s mother: He\'s not an angel. He\'s a very naughty boy!')
+
+print('One\nTwo\nThree')
+print("""This is a multiline text""")
+
+print("Spam" + 'Eggs')
+print("2" + "2")
+print("Spam" * 3)
+print(4 * '2')
+
+user = "James"  
+age = 42
+This_is_a_normal_name = 7
+
+x = 7
+print(x)
+print(x + 3)
+print(x)
+spam = "Eggs"
+print(spam * 3)
+x = 123.456
+print(x)
+x = "This is a string"
+print(x + "!")
+
+x = input()
+print(x)
+name = input("Enter your name: ")
+print("Hello, " + name)
+
+age = int(input())
+print(age)
+age = 42
+print("His age is" + str(age))
+name = input()
+age = input()
+print(name + " is " + age)
+
+x = 2
+print(x)
+x += 3
+print(x)
+x = "Spam"
+print(x)
+x += "Eggs"
+print(x)
+num = int(input())
+print(num)
+print(num:=int(int(input()))
+
+x = int(input())
+y = int(input())
+total = (x + y)
+print(total)
+
+print("Module 3 - Booleans and Comparisons to Range and Date Picker")
+my_boolean = True
+print(my_boolean)
+print(2 == 3)
+print("hello" == "hello")
+print(1 != 1)
+print("eleven" != "seven")
+print(2 != 10)
+print(7 > 5)
+print(10 < 10)
+print(7 <= 8)
+print(9 >= 9.0)
+print("Annie" > "Andy")
+
+if 10 > 5:
+  print("10 greater than 5")
+print("Program ended")
+num = 12
+if num > 5:
+  print("Bigger than 5")
+  if num <= 47:
+    print("Between 5 and 47")
+
+x = 4
+if x == 5:
+  print("Yes")
+else:
+  print("No")
+num = 3
+if num == 1:
+  print("One")
+elif num == 2:
+  print("Two")
+elif num == 3:
+  print("Three")
+else:
+  print("Something else")
+
+print(1 == 1 and 2 == 2)
+print(1 == 1 and 2 == 3)
+print (1 != 1 and 2 == 2)
+print (2 < 1 and 3 > 6)
+print(1 == 1 or 2 == 2)
+print(1 == 1 or 2 == 3)
+print (1 != 1 or 2 == 2)
+print (2 < 1 or 3 > 6)
+print(not 1 == 1)
+print(not 1 > 7)
+
+print(False == False or True)
+print(False == (False or True))
+print((False == False) or True)
+grade = 88
+if (grade >= 70 and grade <= 100):
+  print("Passed!")
+
+words = ["Hello", "world", "!"]
+print(words[0])
+print(words[1])
+print(words[2])
+empty_list = []
+print(empty_list)
+number = 3
+things = ["string", 0, [1, 2, number], 4.56]
+print(things[1])
+print(things[2])
+print(things[2][2])
+m = [
+  [1,2,3],
+  [4,5,6]
+]
+print(m[1][2])
+str = "Hello world!"
+print(str[6])
+nums = [7, 7, 7, 7, 7]
+nums[2] = 5
+print(nums)
+nums = [1, 2, 3]
+print(nums + [4, 5, 6])
+print(nums * 3)
+words = ["spam", "egg", "spam", "sausage"]
+print("spam" in words)
+print("egg" in words)
+print("tomato" in words)
+nums = [1, 2, 3]
+print(not 4 in nums)
+print(3 not in nums)
+
+nums = [1, 2, 3]
+nums.append(4)
+print(nums)
+nums = [1, 3, 5, 2, 4]
+print(len(nums))
+words = ["Python", "fun"]
+index = 1
+words.insert(index, "is")
+print(words)
+letters = ['p', 'q', 'r', 's', 'p', 'u']
+print(letters.index('r'))
+print(letters.index('p'))
+print(letters.index('z'))
+
+i = 1
+while i <= 5:
+  print(i)
+  i = i + 1
+print("Finished!")
+x = 1
+while x < 10:
+  if x % 2 == 0:
+    print(str(x) + " is even")
+  else:
+    print(str(x) + " is odd")
+  x += 1
+i = 0
+while True:
+  print(i)
+  i = i + 1
+  if i >= 5:
+    print("Breaking")
+    break
+print("Finished")
+i = 1
+while i <= 5:
+  print(i)
+  i += 1
+  if i == 3:
+    print("Skipping 3")
+    continue 
+
+words = ["hello", "world", "spam", "eggs"]
+for word in words:
+  print(word + "!")
+str = "testing for loops"
+count = 0
+for x in str:
+  if (x == 't'):
+    count += 1
+print(count)
+
+numbers = list(range(10))
+print(numbers)
+numbers = list(range(3, 8))
+print(numbers)
+print(range(20) == range(0,20))
+numbers = list(range(5, 20, 2))
+print(numbers)
+for i in range(5):
+  print("Hello!")
+
+n = int(input())
+
+for x in range(1, n):
+    if x % 3 == 0 and x % 5 == 0:
+        print("SoloLearn")
+    elif x % 2 == 0:
+        continue
+    elif x % 3 == 0:
+        print("Solo")
+    elif x % 5 == 0:
+        print("Learn")
+    else:
+        print(x)
