@@ -354,3 +354,31 @@ for x in range(1, n):
         print("Learn")
     else:
         print(x)
+ 
+#### Task 1: Create a lottery number generator. This must generate 6 random numbers between 1 and 49 inclusive, and a bonus ball. The numbers must not repeat in any draw. Feel free to “prettify” the text output.
+carryon = "x"
+while carryon == "x":
+  import random
+  name = input("What is your name? ")
+  print("Hello " + name + ", and welcome to the lottery number generator!")
+  y = 0
+  for i in range(7):
+    if y == 0:
+      print("Your first number will be displayed  down below...")
+    elif y == 1:
+      print("Your second number will be displayed  down below...")
+    elif y == 2:
+      print("Your third number will be displayed  down below...")
+    elif y == 3:
+      print("Your fourth number will be displayed  down below...")
+    elif y == 4:
+      print("Your fith number will be displayed  down below...")
+    elif y == 5:
+      print("Your sixth and final number will be displayed  down below...")
+    else: 
+      print("Congratulations! You have earned yourself a bonus ball! Your bonus ball will be displayed below...")
+    x = random.randint(1,49)
+    print(x)
+    y += 1   
+  carron = input("Would you like to restart the lottery number generator? If so, please press the letter x on your keyboard: ")
+
