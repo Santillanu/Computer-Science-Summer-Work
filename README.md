@@ -444,3 +444,19 @@
         print("Thank you for answering all the questions! The quiz has now ended and we are now processing your results...")
         print("Congratulations, you have received " + str(x) + " points for answering the quiz!")
         carryon = input("Would you like to restart the word-opposites quiz game? If so, please press the letter y on your keyboard: ")
+
+### Task:
+#### Write a series of step-by-step instructions to reproduce the above shape. 
+
+### Outcome:
+#### In the context of the title – you can see that the flower-shape involves a repetition of thesame “petal” a number of times, about a centralised point. Thus, if you knew how to generate a single petal, and to rotate around the same corner, then the task of repeating it a number of times becomes trivial. You have recognised a fundamental pattern. Pattern recognition isn’t just graphical – it also involves more complicated thinking. You did this earlier when you fleshed out the details of an algorithm identifying palindromes. When you identify commonalities in experiences, you can extract those patterns allowing you to create a general idea of the problem and how to solve it. These concepts also extend to programming “patterns”, its an area called “design patterns”. 
+
+### Response:
+
+### Task:
+#### A statement is posed: “AI doesn't have to be evil to destroy humanity – if AI has a goal and humanity just happens in the way, it will destroy humanity as a matter of course without even thinking about it, no hard feelings." – Elon Musk On no more than 1 side of A4 – research the statement and evaluate it critically. Go beyond the description, analyse any data, look at different perspectives, justify your position and reach a conclusion. Page 8 of this guide lists some questions you might want to consider.
+
+### Outcome: 
+#### “I keep six honest serving-men: (they taught me all I knew) their names are What and Where and When and How and Why and Who.” - Kipling Critical thinking is a commitment and disposition to subject all thinking to rigorous critique. At this stage, you were able to overcome subjective opinions and respond to a claim using academic rigour that would stand the test of scrutiny.
+
+### Response:
