@@ -436,11 +436,11 @@ while carryon == "x":
       else:
         print("Unfortunately, your answer was not correct. Moving on to the next question...")
   
-  if random.choice(list_1) == random.choice(list_2) and k == 10:
-    print("Congratulations, your answer is correct! We will begin processing your results shortly...")
-  else:
-    print("Unfortunately, your answer was not correct. We will begin processing your results shortly...")
-  
-  print("Thank you for answering all the questions! The quiz has now ended and we are now processing your results...")
-  print("Congratulations, you have received " + str(x) + " points for answering the quiz!")
-  carryon = input("Would you like to restart the word-opposites quiz game? If so, please press the letter y on your keyboard: ")
+        if random.choice(list_1) == random.choice(list_2) and k == 10:
+          print("Congratulations, your answer is correct! We will begin processing your results shortly...")
+        else:
+          print("Unfortunately, your answer was not correct. We will begin processing your results shortly...")
+
+        print("Thank you for answering all the questions! The quiz has now ended and we are now processing your results...")
+        print("Congratulations, you have received " + str(x) + " points for answering the quiz!")
+        carryon = input("Would you like to restart the word-opposites quiz game? If so, please press the letter y on your keyboard: ")
