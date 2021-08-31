@@ -385,57 +385,57 @@ while carryon == "x":
 #### Task 2: The second application is a word-opposites quiz game to help young students practice language. The program must randomly select two different pairs of words from either of the lists below, and then display a question based on the selection. You must ensure that you are not selecting the same synonym-antonym pair i.e. repeating the question.
       carryon = "y"
       while carryon == "y":
-       x = 0
-       k = 0
-       name = input("What is your name? ")
+        x = 0
+        k = 0
+        name = input("What is your name? ")
         print("Hello " + name + ", and welcome to the word-opposites quiz game!")
         print("This quiz will ask a total of 10 questions. Are you ready to begin? Let the quiz commence!")
         for j in range(10):
           while k != 10:
             import random 
             list_1 = ["hot", "summer", "hard", "dry", "simple", "light", "weak", "male", "sad", "win", "small", "ignore", "buy", "succeed", "reject", "prevent", "exclude"]
-            list_2 = ["cold", "winter", "soft", "wet", "complex", "darkness", "strong", "female", "happy", "lose", "big", "pay attention", "sell", "fail", "accept", "allow",      "include"]
+            list_2 = ["cold", "winter", "soft", "wet", "complex", "darkness", "strong", "female", "happy", "lose", "big", "pay attention", "sell", "fail", "accept", "allow", "include"]
 
-      if k == 0:
-        print("Here is the first question...")
-        k = k + 1
-      elif k == 1:
-        print("Here is the second question...")
-        k = k + 1
-      elif k == 2:
-        print("Here is the third question...")
-        k = k + 1
-      elif k == 3:
-        print("Here is the fourth question...")
-        k = k + 1
-      elif k == 4:
-        print("Here is the fifth question. Half way there! You can do it!")
-        k = k + 1
-      elif k == 5:
-        print("Here is the sixth question...")
-        k = k + 1
-      elif k == 6:
-        print("Here is the seventh question...")
-        k = k + 1
-      elif k == 7:
-        print("Here is the eighth question...")
-        k = k + 1
-      elif k == 8:
-        print("Here is the ninth question...")
-        k = k + 1
-      else:
-        print("Here is the tenth and final question. It's now all or nothing!")
-        k = k + 1
-      
-      Question_1 = (random.choice(list_1) + " is to " + random.choice(list_2) + " , as " + random.choice(list_1) + " is to... ")
-      print(Question_1)
-      Answer_1 = input("What is your answer? ")
-      if random.choice(list_1) == random.choice(list_2):
-        print("Congratulations, your answer is correct! Moving on to the next question...")
-        x += 1
-      else:
-        print("Unfortunately, your answer was not correct. Moving on to the next question...")
-  
+            if k == 0:
+              print("Here is the first question...")
+              k = k + 1
+            elif k == 1:
+              print("Here is the second question...")
+              k = k + 1
+            elif k == 2:
+              print("Here is the third question...")
+              k = k + 1
+            elif k == 3:
+              print("Here is the fourth question...")
+              k = k + 1
+            elif k == 4:
+              print("Here is the fifth question. Half way there! You can do it!")
+              k = k + 1
+            elif k == 5:
+              print("Here is the sixth question...")
+              k = k + 1
+            elif k == 6:
+              print("Here is the seventh question...")
+              k = k + 1
+            elif k == 7:
+              print("Here is the eighth question...")
+              k = k + 1
+            elif k == 8:
+              print("Here is the ninth question...")
+              k = k + 1
+            else:
+              print("Here is the tenth and final question. It's now all or nothing!")
+              k = k + 1
+
+            Question_1 = (random.choice(list_1) + " is to " + random.choice(list_2) + " , as " + random.choice(list_1) + " is to... ")
+            print(Question_1)
+            Answer_1 = input("What is your answer? ")
+            if random.choice(list_1) == random.choice(list_2):
+              print("Congratulations, your answer is correct! Moving on to the next question...")
+              x += 1
+            else:
+              print("Unfortunately, your answer was not correct. Moving on to the next question...")
+
         if random.choice(list_1) == random.choice(list_2) and k == 10:
           print("Congratulations, your answer is correct! We will begin processing your results shortly...")
         else:
