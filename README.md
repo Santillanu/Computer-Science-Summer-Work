@@ -383,19 +383,19 @@ while carryon == "x":
   carron = input("Would you like to restart the lottery number generator? If so, please press the letter x on your keyboard: ")
 
 #### Task 2: The second application is a word-opposites quiz game to help young students practice language. The program must randomly select two different pairs of words from either of the lists below, and then display a question based on the selection. You must ensure that you are not selecting the same synonym-antonym pair i.e. repeating the question.
-carryon = "y"
-while carryon == "y":
-  x = 0
-  k = 0
-  name = input("What is your name? ")
-  print("Hello " + name + ", and welcome to the word-opposites quiz game!")
-  print("This quiz will ask a total of 10 questions. Are you ready to begin? Let the quiz commence!")
-  for j in range(10):
-    while k != 10:
-      import random 
-      list_1 = ["hot", "summer", "hard", "dry", "simple", "light", "weak", "male", "sad", "win", "small", "ignore", "buy", "succeed", "reject", "prevent", "exclude"]
-      list_2 = ["cold", "winter", "soft", "wet", "complex", "darkness", "strong", "female", "happy", "lose", "big", "pay attention", "sell", "fail", "accept", "allow", "include"]
-    
+      carryon = "y"
+      while carryon == "y":
+       x = 0
+       k = 0
+       name = input("What is your name? ")
+        print("Hello " + name + ", and welcome to the word-opposites quiz game!")
+        print("This quiz will ask a total of 10 questions. Are you ready to begin? Let the quiz commence!")
+        for j in range(10):
+          while k != 10:
+            import random 
+            list_1 = ["hot", "summer", "hard", "dry", "simple", "light", "weak", "male", "sad", "win", "small", "ignore", "buy", "succeed", "reject", "prevent", "exclude"]
+            list_2 = ["cold", "winter", "soft", "wet", "complex", "darkness", "strong", "female", "happy", "lose", "big", "pay attention", "sell", "fail", "accept", "allow",      "include"]
+
       if k == 0:
         print("Here is the first question...")
         k = k + 1
