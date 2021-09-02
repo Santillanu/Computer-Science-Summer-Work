@@ -8,6 +8,7 @@
   * Logical Thinking - Pattern Recognition
   * Research and Critical Thinking
 
+### Contextualisation
 ### Task:
 #### Watch this Ted Talk on how computers learn to recognise objects instantly. After watching this video, discuss the benefits, limitations, and risks of the subject in the context of:
  * Travel and Tourism
@@ -60,6 +61,7 @@
 
 * Risks - A redundancy in staff as a result of implementing image recognition to debug most problems with regards to diagnosing a patient may lead to a larger proportion of skilled workers without any job, thus leading to protests and the loss of human interaction with the patient. Some patients may not like automacy of registering themselves and being diagnosed through an image recognition algorithm. 
 
+### Abstract Thinking 
 ### Task:
 #### A palindrome is a word that reads identically backward or forward. Consider the word “RACECAR”, what steps would you take to identify whether it was a palindrome? Write these down using concrete terms. Do the same for another word “DEFIED”. Given the concrete examples, consider the generalized problem - informally describe an algorithm in English, that can identify any palindromes.
 
@@ -99,6 +101,7 @@
 * Playing the piano
 
 ### Programming Skills - Algorithms
+### Task:
 #### Register with Sololearn and Repl.It . SoloLearn is an online learning platform for programming. Repl.it is an online platform that allows you to code without the need to install a programming development environment on your machine. On Sololearn, select the Python Learning course, and complete modules 1, 2 and 3 that cover fundamentals of programming. Throughout the materials, Sololearn provides you with a button that runs the example code provided - however, rather than running the example programs written in Python on Sololearn - type the code out in Repl and run it there. The act of typing these examples is Active Learning.")
 #### Module 1 - Welcome to Python! to Quotient and Remainder
       print("Hello World!")
@@ -445,9 +448,16 @@
         print("Congratulations, you have received " + str(x) + " points for answering the quiz!")
         carryon = input("Would you like to restart the word-opposites quiz game? If so, please press the letter y on your keyboard: ")
 
+### Logical Thinking – Pattern Recognition
 ### Task:
 #### Write a series of step-by-step instructions to reproduce the above shape. 
-      import turtle
+      
+
+### Outcome:
+#### In the context of the title – you can see that the flower-shape involves a repetition of thesame “petal” a number of times, about a centralised point. Thus, if you knew how to generate a single petal, and to rotate around the same corner, then the task of repeating it a number of times becomes trivial. You have recognised a fundamental pattern. Pattern recognition isn’t just graphical – it also involves more complicated thinking. You did this earlier when you fleshed out the details of an algorithm identifying palindromes. When you identify commonalities in experiences, you can extract those patterns allowing you to create a general idea of the problem and how to solve it. These concepts also extend to programming “patterns”, its an area called “design patterns”. 
+
+### Response:
+import turtle
 
       bob = turtle.Turtle()
       # bob.forward(100)
@@ -585,12 +595,8 @@
       bob.forward(200)
       bob.end_fill()
       turtle.done()
-      
-### Outcome:
-#### In the context of the title – you can see that the flower-shape involves a repetition of thesame “petal” a number of times, about a centralised point. Thus, if you knew how to generate a single petal, and to rotate around the same corner, then the task of repeating it a number of times becomes trivial. You have recognised a fundamental pattern. Pattern recognition isn’t just graphical – it also involves more complicated thinking. You did this earlier when you fleshed out the details of an algorithm identifying palindromes. When you identify commonalities in experiences, you can extract those patterns allowing you to create a general idea of the problem and how to solve it. These concepts also extend to programming “patterns”, its an area called “design patterns”. 
 
-### Response:
-
+### Research and Critical Thinking
 ### Task:
 #### A statement is posed: “AI doesn't have to be evil to destroy humanity – if AI has a goal and humanity just happens in the way, it will destroy humanity as a matter of course without even thinking about it, no hard feelings." – Elon Musk On no more than 1 side of A4 – research the statement and evaluate it critically. Go beyond the description, analyse any data, look at different perspectives, justify your position and reach a conclusion. Page 8 of this guide lists some questions you might want to consider.
 
