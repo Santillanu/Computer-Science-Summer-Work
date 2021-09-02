@@ -102,7 +102,7 @@
 
 ### Programming Skills - Algorithms
 #### Register with Sololearn and Repl.It . SoloLearn is an online learning platform for programming. Repl.it is an online platform that allows you to code without the need to install a programming development environment on your machine. On Sololearn, select the Python Learning course, and complete modules 1, 2 and 3 that cover fundamentals of programming. Throughout the materials, Sololearn provides you with a button that runs the example code provided - however, rather than running the example programs written in Python on Sololearn - type the code out in Repl and run it there. The act of typing these examples is Active Learning.")
-*Module 1 - Welcome to Python! to Quotient and Remainder
+**Module 1 - Welcome to Python! to Quotient and Remainder**
 
       print("Hello World!")
       print("Hi")
