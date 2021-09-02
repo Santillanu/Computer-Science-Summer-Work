@@ -610,3 +610,4 @@
 #### “I keep six honest serving-men: (they taught me all I knew) their names are What and Where and When and How and Why and Who.” - Kipling Critical thinking is a commitment and disposition to subject all thinking to rigorous critique. At this stage, you were able to overcome subjective opinions and respond to a claim using academic rigour that would stand the test of scrutiny.
 
 ### Response:
+* Elon Musk is trying to illustrate that it is ultimately the creator's responsibility to ensure that the AI is not programmed to harm or endanger humanity in a way that could lead to possible extinction, as the AI will execute any set of instructions regardless of whether those set of instructions are ill-intentioned or not. The use of the verb 'destroy' could suggest a possible extermination of humankind in a similar vein to a dystopian novel, and thus, we should take extra precaution when handling AI. However, one could argue that 
