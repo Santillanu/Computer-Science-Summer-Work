@@ -104,6 +104,7 @@
 ### Task:
 #### Register with Sololearn and Repl.It . SoloLearn is an online learning platform for programming. Repl.it is an online platform that allows you to code without the need to install a programming development environment on your machine. On Sololearn, select the Python Learning course, and complete modules 1, 2 and 3 that cover fundamentals of programming. Throughout the materials, Sololearn provides you with a button that runs the example code provided - however, rather than running the example programs written in Python on Sololearn - type the code out in Repl and run it there. The act of typing these examples is Active Learning.")
 * Module 1 - Welcome to Python! to Quotient and Remainder
+
       print("Hello World!")
       print("Hi")
       print('Hello world!')
@@ -137,6 +138,7 @@
       print(offer2)
 
 * Module 2 - Strings to In-Place and Walrus Operators
+
       print("Python is fun!")
       print('Always look on the bright side of life')
       print('Brian\'s mother: He\'s not an angel. He\'s a very naughty boy!')
@@ -195,6 +197,7 @@
       print(total)
 
 * Module 3 - Booleans and Comparisons to Range
+
       my_boolean = True
       print(my_boolean)
       print(2 == 3)
@@ -359,6 +362,7 @@
               print(x)
 
 * Task 1: Create a lottery number generator. This must generate 6 random numbers between 1 and 49 inclusive, and a bonus ball. The numbers must not repeat in any draw. Feel free to “prettify” the text output.
+
       carryon = "x"
       while carryon == "x":
         import random
@@ -386,6 +390,7 @@
         carryon = input("Would you like to restart the lottery number generator? If so, please press the letter x on your keyboard: ")
 
 * Task 2: The second application is a word-opposites quiz game to help young students practice language. The program must randomly select two different pairs of words from either of the lists below, and then display a question based on the selection. You must ensure that you are not selecting the same synonym-antonym pair i.e. repeating the question.
+
       carryon = "y"
       while carryon == "y":
         x = 0
